@@ -53,7 +53,7 @@ public class CompressString
 			}
 		}
 
-		// Note: a trick in the former code: the last part never gets added to the output string.
+		// Note: a trick in the former RotateMatrix: the last part never gets added to the output string.
 		// eg: aabccc, outputStr after the loop is "a2b1", "c3" was never added to output string.
 		// So needs the following:
 		outputStr = outputStr + previousChar + count;
